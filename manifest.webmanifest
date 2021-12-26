@@ -1,0 +1,29 @@
+{
+    "short_name": "Thanks For Gifts",
+    "name": "Thanks For The Gifts! Card Shortcut",
+    "icons": [
+        {
+            "src": "images/icon-128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "images/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "index.html",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/app/",
+    "theme_color": "#E3E3E3",
+    "orientation": "landscape",
+    "host_permissions": ["https://github.com/BabylonJS/Extensions/blob/master/MeshWriter/meshwriter.min.js"],
+    "permissions": ["https://github.com/BabylonJS/Extensions/blob/master/MeshWriter/meshwriter.min.js"]
+}
